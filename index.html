@@ -7,12 +7,12 @@
 </head>
 <style>
     body {
-        font-family: Arial;
+        font-family: Helvetica;
         background-color: #d5aead;
         margin: 0px;
     }
     main {
-        width: 800px;
+        width: 768px;
         min-height: 100vh;
         height: 100%;
         background-color: white;
@@ -28,7 +28,7 @@
         border: 1px solid white;
     }
     article {
-        padding: 20px;
+        padding: 40px;
     }
     div#more {
         display: flex;
@@ -36,16 +36,34 @@
     }
     div#more > img {
         flex-direction: row;
+        flex-grow: 1;
         height: 50%;
     }
     div#more > img:first-child {
         margin-right: 10px;
     }
     ul, ol {
-        margin-left: -10px;
+        margin-left: -18px;
+        line-height: 1.5em;
     }
     h1 {
         color: #931c12;
+        margin: 10px auto;
+        font-size: 1.6em;
+    }
+    h3 {
+        font-size: 1.3em;
+        margin: 20px auto 10px;
+    }
+    h3 > span {
+        font-weight: normal;
+    }
+    p {
+        background: #ebebeb;
+        padding: 15px;
+    }
+    footer {
+        height: 40px;
     }
 </style>
 <body>
@@ -78,7 +96,7 @@
                 </ol>
             </section>
             <section>
-                <h4>Serveringsförslag</h4>
+                <h3>Serveringsförslag</h3>
                 <div id="more">
                     <img src="/images/extra1.png" width="200" height="200" alt="suggestion1">
                     <img src="/images/extra2.png" width="200" height="200" alt="suggestion2">
