@@ -4,70 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
-<style>
-    body {
-        font-family: Helvetica;
-        background-color: #d5aead;
-        margin: 0px;
-    }
-    main {
-        width: 768px;
-        min-height: 100vh;
-        height: 100%;
-        background-color: white;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    #cover {
-        width: calc(100% - 2px);
-        height: 300px;
-        background-image: url('/images/cover.png');
-        background-size: 100%;
-        background-position: center;
-        border: 1px solid white;
-    }
-    article {
-        padding: 40px;
-    }
-    div#more {
-        display: flex;
-        width: 100%;
-    }
-    div#more > img {
-        flex-direction: row;
-        flex-grow: 1;
-        height: 50%;
-    }
-    div#more > img:first-child {
-        margin-right: 10px;
-    }
-    ul, ol {
-        margin-left: -18px;
-        line-height: 1.5em;
-    }
-    h1 {
-        color: #931c12;
-        margin: 10px auto;
-        font-size: 1.6em;
-    }
-    h3 {
-        font-size: 1.3em;
-        margin: 20px auto 10px;
-    }
-    h3 > span {
-        font-weight: normal;
-    }
-    p {
-        background: #ebebeb;
-        padding: 15px;
-    }
-    footer {
-        height: 40px;
-    }
-</style>
 <body>
-    <header></header>
+    <header><!-- Header --></header>
     <main>
         <div id="cover"></div>
         <article>
@@ -98,12 +38,12 @@
             <section>
                 <h3>Serveringsförslag</h3>
                 <div id="more">
-                    <img src="/images/extra1.png" width="200" height="200" alt="suggestion1">
-                    <img src="/images/extra2.png" width="200" height="200" alt="suggestion2">
+                    <div class="more-item" style="background-image:url(/images/serve1.jpg);"></div>
+                    <div class="more-item" style="background-image:url(/images/serve2.jpg);"></div>
                 </div>
             </section>
     </article>
     </main>
-    <footer></footer>
+    <footer><!-- Foooter --></footer>
 </body>
 </html>
