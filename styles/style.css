@@ -77,6 +77,11 @@ div#more > .more-item {
 
 div#more > .more-item:first-child {
     margin-right: 20px;
+    background-image:url('/images/serve1.jpg');
+}
+
+div#more > .more-item:nth-child(2) {
+    background-image:url('/images/serve2.jpg');
 }
 
 @media (max-width: 768px) {
