@@ -14,14 +14,11 @@ main {
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
+    margin-bottom: 40px;
 }
 
 article {
     padding: 0 64px 64px;
-}
-
-footer {
-    height: 40px;
 }
 
 p {
@@ -83,12 +80,12 @@ figure {
 }
 
 @media (max-width: 768px) {
-    article {
-        padding: 0 20px 20px;
+    main {
+        margin-bottom: 0;
     }
 
-    footer {
-        height: 0;
+    article {
+        padding: 0 20px 20px;
     }
 
     #gallery {
